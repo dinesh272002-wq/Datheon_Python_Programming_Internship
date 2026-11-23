@@ -1,3 +1,4 @@
+import os
 import random
 
 # Define the ASCII gallows stages (0 to 6 errors)
@@ -53,23 +54,20 @@ HANGMAN_STAGES = [
     """
 ]
 
-FALLBACK_WORDS = ["hangman", "python", "developer", "google"]
+WORDS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "words.txt")
 
 
-def load_words(file_path):
-    """Loads a list of words from a file, filtering out short or special words."""
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            # Keep reasonable-sized, purely alphabetical words (5+ letters)
-            words = [
-                line.strip().lower()
-                for line in f
-                if len(line.strip()) >= 5 and line.strip().isalpha()
-            ]
-        return words if words else FALLBACK_WORDS
-    except FileNotFoundError:
-        print(f"Warning: File {file_path} not found. Using fallback word list.")
-        return FALLBACK_WORDS
+def load_words(file_path=WORDS_FILE):
+    """Loads words from a file, keeping only alphabetical words with 5+ letters."""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        words = [
+            line.strip().lower()
+            for line in f
+            if len(line.strip()) >= 5 and line.strip().isalpha()
+        ]
+    if not words:
+        raise SystemExit(f"No usable words found in {file_path}")
+    return words
 
 
 def play_hangman(word_list):
@@ -133,5 +131,5 @@ def play_hangman(word_list):
 
 
 if __name__ == "__main__":
-    words = load_words("words.txt")
+    words = load_words()
     play_hangman(words)
