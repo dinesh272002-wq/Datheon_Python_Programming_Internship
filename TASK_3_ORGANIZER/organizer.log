@@ -1,0 +1,23 @@
+2026-11-24 22:38:09,301 | INFO | Organizing: C:\Users\DDine\OneDrive\Desktop\PROJECT\Datheon_Python_Programming_Internship\TASK_3\TEST_FOLDER
+2026-11-24 22:38:09,304 | INFO | MOVED  beautiful-and-inspiring-picture-detailing-a-bright-hot-air-balloon-over-river-pure-cozy-perfect-for-creatives-moods-stock-image-free-photo.jpeg  ->  Images/beautiful-and-inspiring-picture-detailing-a-bright-hot-air-balloon-over-river-pure-cozy-perfect-for-creatives-moods-stock-image-free-photo.jpeg
+2026-11-24 22:38:09,312 | INFO | MOVED  capcut-explosion-sound.mp3  ->  Audio/capcut-explosion-sound.mp3
+2026-11-24 22:38:09,316 | INFO | MOVED  gunshot-sound.mp3  ->  Audio/gunshot-sound.mp3
+2026-11-24 22:38:09,320 | INFO | MOVED  images.jpg  ->  Images/images.jpg
+2026-11-24 22:38:09,324 | INFO | MOVED  istockphoto-157373207-612x612.jpg  ->  Images/istockphoto-157373207-612x612.jpg
+2026-11-24 22:38:09,329 | INFO | MOVED  istockphoto-814423752-612x612.jpg  ->  Images/istockphoto-814423752-612x612.jpg
+2026-11-24 22:38:09,335 | INFO | MOVED  vlipsy-dog-with-bone-complete-shock-uUUcbXJ6.mp4  ->  Videos/vlipsy-dog-with-bone-complete-shock-uUUcbXJ6.mp4
+2026-11-24 22:38:09,339 | INFO | MOVED  vlipsy-key-and-peele-sweating-yP5h0tBK.mp4  ->  Videos/vlipsy-key-and-peele-sweating-yP5h0tBK.mp4
+2026-11-24 22:38:09,343 | INFO | MOVED  vlipsy-nature-laughing-lion-Rjgum9lT.mp4  ->  Videos/vlipsy-nature-laughing-lion-Rjgum9lT.mp4
+2026-11-24 22:38:09,343 | INFO | 
+============================================
+2026-11-24 22:38:09,343 | INFO |              EXECUTION SUMMARY              
+2026-11-24 22:38:09,343 | INFO | ============================================
+2026-11-24 22:38:09,344 | INFO |   Audio            2
+2026-11-24 22:38:09,344 | INFO |   Images           4
+2026-11-24 22:38:09,344 | INFO |   Videos           3
+2026-11-24 22:38:09,344 | INFO | --------------------------------------------
+2026-11-24 22:38:09,344 | INFO |   Files moved                9
+2026-11-24 22:38:09,345 | INFO |   Renamed (name clash)       0
+2026-11-24 22:38:09,345 | INFO |   Skipped                    0
+2026-11-24 22:38:09,345 | INFO |   Errors                     0
+2026-11-24 22:38:09,345 | INFO | ============================================
