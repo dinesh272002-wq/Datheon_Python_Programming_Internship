@@ -61,8 +61,7 @@ TOTAL                                       8,750.00    11,694.00   +2,944.00  +
 ======================================================================================
 ```
 
-## TASK 3: ORGANIZER
-# Task 3: File Organizer
+## Task 3: File Organizer
  
 A Python script that cleans up a messy folder (like Downloads) by moving every file into a category folder based on its extension.
  
